@@ -4,7 +4,7 @@ name: Checks
 on: [push]
 
 jobs:
-  test:
+  test-lint:
     runs-on: ubuntu-latest
     name: Test and Lint
     steps:
